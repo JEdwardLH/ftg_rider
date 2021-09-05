@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/tvToolbar"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:paddingTop="2dp"
+    android:singleLine="true"
+    tools:background="@color/colorAccentWhite"
+    tools:text="Sample Title" />

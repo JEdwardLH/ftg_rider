@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_order_item_clickable"
+        android:clickable="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="13dp">
+
+            <ImageView
+                android:id="@+id/restaurant_image"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/restaurant_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="6dp"
+                android:text="fgfdgkjhfskgjsfghfksdjghskjflgfflksdjgsfdgksfjksgdfjgfdsfjgjhsgjdf"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/restaurant_image"
+                app:layout_constraintTop_toTopOf="@+id/restaurant_image" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:maxLines="4"
+                android:singleLine="false"
+                android:textColor="@color/darker_grey"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/restaurant_image"
+                app:layout_constraintTop_toBottomOf="@+id/restaurant_name" />
+            <TextView
+                android:id="@+id/phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="4dp"
+                android:maxLines="4"
+                android:visibility="gone"
+                android:text=""
+                android:drawablePadding="5dp"
+                android:paddingBottom="5dp"
+                android:gravity="center"
+                android:singleLine="false"
+                android:drawableLeft="@drawable/ic_info"
+                android:textColor="@color/darker_grey"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/restaurant_name"
+                app:layout_constraintTop_toBottomOf="@+id/address"
+                android:drawableStart="@drawable/ic_info" />
+
+            <androidx.constraintlayout.widget.Barrier
+                android:id="@+id/barrier4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="restaurant_image,address,phone_number" />
+
+            <LinearLayout
+                android:id="@+id/order_id_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/barrier4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_id"
+                    android:textColor="@color/darker_grey"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/order_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/activity_margin"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:text="@string/todo"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/order_date_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="  @+id/order_id_layout"
+                app:layout_constraintTop_toBottomOf="@id/order_id_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ordered_on"
+                    android:textColor="@color/darker_grey"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/order_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/activity_margin"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:text="@string/todo"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/order_payment_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="  @+id/order_id_layout"
+                app:layout_constraintTop_toBottomOf="@id/order_date_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/payment_type_without"
+                    android:textColor="@color/darker_grey"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/order_payment_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/activity_margin"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:text="@string/todo"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/order_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_margin"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="  @+id/order_date_layout"
+                app:layout_constraintTop_toBottomOf="@id/order_payment_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/receivable_amount"
+                    android:textColor="@color/darker_grey"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/activity_margin"
+                    android:paddingRight="@dimen/activity_margin"
+                    android:text="@string/todo"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/info"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_info_orange"
+                    android:contentDescription="@string/todo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/total_order_amount_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/order_amount_layout">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_order_amount"
+                    android:textColor="@color/darker_grey"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/total_order_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:text="@string/todo"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_select"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/accept"
+                android:contentDescription="@string/todo"
+                android:drawableStart="@drawable/ic_accept_icon"
+                android:drawableLeft="@drawable/ic_accept_icon"
+                android:paddingLeft="@dimen/edit_text_pading_left"
+                android:paddingRight="@dimen/edit_text_pading_left"
+                android:text="@string/accept"
+                android:textColor="@color/colorWhite"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:textSize="10sp"
+                app:layout_constraintStart_toStartOf="@+id/total_order_amount_layout"
+                app:layout_constraintTop_toBottomOf="@+id/total_order_amount_layout" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="68dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:background="@drawable/reject"
+                android:contentDescription="@string/todo"
+                android:drawableStart="@drawable/ic_reject_icon"
+                android:drawableLeft="@drawable/ic_reject_icon"
+                android:paddingLeft="@dimen/edit_text_pading_left"
+                android:paddingRight="@dimen/edit_text_pading_left"
+                android:text="@string/reject"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/btn_select"
+                app:layout_constraintTop_toBottomOf="@+id/total_order_amount_layout" />
+
+            <RelativeLayout
+                android:id="@+id/invoice_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/view_bg"
+                android:gravity="center"
+                android:paddingStart="8dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/total_order_amount_layout">
+
+                <ImageView
+                    android:id="@+id/img_invoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_invoice"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/img_invoice"
+                    android:layout_toRightOf="@+id/img_invoice"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/edit_text_pading_left"
+                    android:paddingLeft="@dimen/edit_text_pading_left"
+                    android:paddingEnd="2dp"
+                    android:paddingRight="2dp"
+                    android:singleLine="false"
+                    android:text="@string/view_invoice"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</LinearLayout>

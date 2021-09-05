@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:overScrollMode="never"
+    android:smoothScrollbar="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/profile_img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_user_default" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_toEndOf="@+id/profile_img"
+                android:layout_toRightOf="@+id/profile_img"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/order_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|start"
+                    android:text="Manikandan"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/payment_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|start"
+                    android:text="Manikandan"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/new_order_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/new_order_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_order_new" />
+
+            <TextView
+                android:id="@+id/new_order_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/new_order_img"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/new_order_img"
+                android:layout_toRightOf="@+id/new_order_img"
+                android:text="@string/new_order_label"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/new_order_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/new_order_label"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/new_order_img"
+                android:layout_toRightOf="@+id/new_order_img"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/tick_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/new_order_img"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="132dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_tick" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/new_order_time"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:background="@drawable/line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/accept_order_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/accept_order_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_order_accepted" />
+
+            <TextView
+                android:id="@+id/accept_order_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/accept_order_img"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/accept_order_img"
+                android:layout_toRightOf="@+id/accept_order_img"
+                android:text="@string/order_accepted"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/accept_order_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/accept_order_label"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/accept_order_img"
+                android:layout_toRightOf="@+id/accept_order_img"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/accept_tick_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/accept_order_img"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="132dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_tick" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/accept_order_time"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:background="@drawable/line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/prepare_order_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/prepare_order_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_order_prepare" />
+
+            <TextView
+                android:id="@+id/prepare_order_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/prepare_order_img"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/prepare_order_img"
+                android:layout_toRightOf="@+id/prepare_order_img"
+                android:text="@string/preapre_deliver"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/prepare_order_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prepare_order_label"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/prepare_order_img"
+                android:layout_toRightOf="@+id/prepare_order_img"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/prepare_tick_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/prepare_order_img"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="132dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_tick" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/prepare_order_time"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:background="@drawable/line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dispatch_order_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dispatch_order_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_dispatched" />
+
+            <TextView
+                android:id="@+id/dispatch_order_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/dispatch_order_img"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/dispatch_order_img"
+                android:layout_toRightOf="@+id/dispatch_order_img"
+                android:text="@string/dispatched"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dispatch_order_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dispatch_order_label"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/dispatch_order_img"
+                android:layout_toRightOf="@+id/dispatch_order_img"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/dispatch_tick_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/dispatch_order_img"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="132dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_tick" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/dispatch_order_time"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:background="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/ic_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/dispatch_order_img"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_toStartOf="@+id/dispatch_tick_img"
+                android:layout_toLeftOf="@+id/dispatch_tick_img"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_info" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_started_order"
+            style="@style/default_button_square"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_started"
+            android:drawableLeft="@drawable/ic_started"
+            android:drawablePadding="30dp"
+            android:gravity="center|start"
+            android:paddingStart="40dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/started"
+            android:textColor="@color/colorWhite"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/started_order_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.1">
+
+            <ImageView
+                android:id="@+id/started_order_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_started" />
+
+            <TextView
+                android:id="@+id/started_order_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/started_order_img"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/started_order_img"
+                android:layout_toRightOf="@+id/started_order_img"
+                android:text="@string/started"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/started_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/started_order_label"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/started_order_img"
+                android:layout_toRightOf="@+id/started_order_img"
+                android:text="@string/order_on_way"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/started_tick_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/started_order_img"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="132dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_tick" />
+
+            <View
+                android:id="@+id/view_start"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/started_msg"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:background="@drawable/line" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_arrived_order"
+            style="@style/default_button_square"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_arrived"
+            android:drawableLeft="@drawable/ic_arrived"
+            android:drawablePadding="20dp"
+            android:gravity="center|start"
+            android:paddingStart="40dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/arrived"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/arrived_order_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.1">
+
+            <ImageView
+                android:id="@+id/arrived_order_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_arrived" />
+
+            <TextView
+                android:id="@+id/arrived_order_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/arrived_order_img"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/arrived_order_img"
+                android:layout_toRightOf="@+id/arrived_order_img"
+                android:text="@string/arrived"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/arrived_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/arrived_order_label"
+                android:layout_alignStart="@+id/arrived_order_label"
+                android:layout_alignLeft="@+id/arrived_order_label"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:text="@string/enjoy_food"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/arrived_tick_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/arrived_order_img"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="132dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_tick" />
+
+            <View
+                android:id="@+id/view_arrived"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/arrived_msg"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:background="@drawable/line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/delivered_order_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.1">
+
+            <ImageView
+                android:id="@+id/delivered_order_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_delivered" />
+
+            <TextView
+                android:id="@+id/delivered_order_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/delivered_order_img"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/delivered_order_img"
+                android:layout_toRightOf="@+id/delivered_order_img"
+                android:text="@string/delivered"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/delivered_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/delivered_order_label"
+                android:layout_alignStart="@+id/delivered_order_label"
+                android:layout_alignLeft="@+id/delivered_order_label"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/delivered_order_label"
+                android:layout_toRightOf="@+id/delivered_order_label"
+                android:singleLine="true"
+                android:text="@string/enjoy_food"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/delivered_tick_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/delivered_order_img"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="132dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_tick" />
+
+            <View
+                android:id="@+id/view_delivered"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/delivered_msg"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:background="@drawable/line" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/failed_order_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/failed_delivered_order_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_failed_order" />
+
+            <TextView
+                android:id="@+id/failed_delivered_order_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/failed_delivered_order_img"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@+id/failed_delivered_order_img"
+                android:layout_toRightOf="@+id/failed_delivered_order_img"
+                android:text="@string/failed"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/failed_delivered_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/failed_delivered_order_label"
+                android:layout_alignStart="@+id/failed_delivered_order_label"
+                android:layout_alignLeft="@+id/failed_delivered_order_label"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/failed_delivered_order_label"
+                android:layout_toRightOf="@+id/failed_delivered_order_label"
+                android:singleLine="true"
+                android:text="@string/enjoy_food"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/failed_delivered_tick_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/failed_delivered_order_img"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="132dp"
+                android:contentDescription="@string/todo"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_tick" />
+
+            <View
+                android:id="@+id/failed_view_delivered"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/failed_delivered_msg"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:background="@drawable/line" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_delivery_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="top"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/delivered_order_order"
+                style="@style/default_button_square"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_delivered"
+                android:drawableLeft="@drawable/ic_delivered"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/delivered"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/failed_order"
+                style="@style/default_button_square"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_failed_order"
+                android:drawableLeft="@drawable/ic_failed_order"
+                android:drawablePadding="15dp"
+                android:gravity="center|start"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/failed"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

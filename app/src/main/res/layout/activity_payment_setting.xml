@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/appbar" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:behavior_overlapTop="@dimen/overlapImage"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_single">
+
+            <TextView
+                    android:id="@+id/net_bank_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/bank_details"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:id="@+id/net_bank_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_single"
+                android:elevation="@dimen/edit_text_pading_left"
+                android:orientation="vertical"
+                android:visibility="visible"
+                tools:targetApi="lollipop">
+                <EditText
+                    android:id="@+id/bank_name_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_bg"
+                    android:hint="@string/bank_name"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_marginTop="@dimen/extra_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:paddingStart="@dimen/activity_horizontal_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/radius_ten"
+                    android:paddingEnd="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="@dimen/radius_ten"
+                    android:text=""
+                    android:textSize="14sp"
+                    tools:targetApi="o" />
+
+                    <EditText
+                        android:id="@+id/acc_edt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/search_bg"
+                        android:hint="@string/account_number"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="@dimen/extra_margin"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:paddingStart="@dimen/activity_horizontal_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingTop="@dimen/radius_ten"
+                        android:paddingEnd="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="@dimen/radius_ten"
+                        android:text=""
+                        android:textSize="14sp"
+                        tools:targetApi="o" />
+
+
+                    <EditText
+                        android:id="@+id/branch_name_edt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:layout_marginTop="@dimen/extra_margin"
+                        android:background="@drawable/search_bg"
+                        android:hint="@string/name_account"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingStart="@dimen/activity_horizontal_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingTop="@dimen/radius_ten"
+                        android:paddingEnd="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="@dimen/radius_ten"
+                        android:text=""
+                        android:textSize="14sp"
+                        tools:targetApi="o" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/button_bg"
+                android:text="@string/update"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                tools:text="@string/update" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

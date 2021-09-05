@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+
+    <TextView
+        android:id="@+id/date_item"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/radius_ten"
+        android:paddingBottom="@dimen/radius_ten"
+        app:layout_constraintEnd_toStartOf="@+id/status_item"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/status_item"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        android:paddingTop="@dimen/radius_ten"
+        android:paddingBottom="@dimen/radius_ten"
+        app:layout_constraintEnd_toStartOf="@+id/charge_item"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/date_item"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/charge_item"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/radius_ten"
+        android:paddingBottom="@dimen/radius_ten"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/status_item"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/order_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingBottom="10dp"
+        android:text="@string/order_id"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/date_item"
+        app:layout_constraintTop_toBottomOf="@+id/date_item" />
+
+    <TextView
+        android:id="@+id/order_id_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:paddingLeft="@dimen/edit_text_pading_left"
+        android:paddingBottom="10dp"
+        android:paddingRight="@dimen/edit_text_pading_left"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintStart_toEndOf="@+id/order_item"
+        app:layout_constraintTop_toTopOf="@+id/order_item" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_grey"
+        app:layout_constraintTop_toBottomOf="@+id/order_item"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

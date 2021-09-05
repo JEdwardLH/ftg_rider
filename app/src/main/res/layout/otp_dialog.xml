@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/rectangle_bg"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/otp_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/label_otp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/txt_sixteen"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:layout_below="@+id/otp_label"
+        android:hint="@string/enter_otp"
+        android:inputType="phone"
+        android:textSize="14sp"
+        android:autofillHints=""
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="130dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/edt_otp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:layout_centerHorizontal="true"
+        android:text="@string/go"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

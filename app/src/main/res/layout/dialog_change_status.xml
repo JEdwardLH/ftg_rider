@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/close_ic" />
+
+        <LinearLayout
+            android:id="@+id/started_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:alpha="0.3"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/radius_ten"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_tick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/extra_margin"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="@dimen/extra_margin"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="@string/started" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/arrived_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:alpha="0.3"
+            android:visibility="gone"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_tick" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/extra_margin"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="@dimen/extra_margin"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="@string/arrived" />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_started"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/extra_margin"
+                android:layout_marginRight="@dimen/extra_margin"
+                android:paddingStart="@dimen/extra_margin"
+                android:paddingLeft="@dimen/extra_margin"
+                android:paddingRight="@dimen/extra_margin"
+                android:text="@string/started"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+
+            <RadioButton
+                android:id="@+id/radio_arrived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/extra_margin"
+                android:layout_marginRight="@dimen/extra_margin"
+                android:paddingStart="@dimen/extra_margin"
+                android:paddingLeft="@dimen/extra_margin"
+                android:paddingRight="@dimen/extra_margin"
+                android:textSize="16sp"
+                android:text="@string/arrived"
+                android:textColor="@color/colorBlack" />
+
+            <RadioButton
+                android:id="@+id/radio_delivered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/extra_margin"
+                android:layout_marginRight="@dimen/extra_margin"
+                android:paddingStart="@dimen/extra_margin"
+                android:paddingLeft="@dimen/extra_margin"
+                android:paddingRight="@dimen/extra_margin"
+                android:textSize="16sp"
+                android:text="@string/delivered"
+                android:textColor="@color/colorBlack" />
+
+            <RadioButton
+                android:id="@+id/radio_failed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/extra_margin"
+                android:layout_marginRight="@dimen/extra_margin"
+                android:layout_marginBottom="@dimen/radius_ten"
+                android:paddingStart="@dimen/extra_margin"
+                android:paddingLeft="@dimen/extra_margin"
+                android:paddingRight="@dimen/extra_margin"
+                android:text="@string/failed"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/reason_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/extra_margin"
+            android:layout_marginRight="@dimen/extra_margin"
+            android:layout_marginBottom="@dimen/extra_margin"
+            android:hint="@string/enter_reason"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/otp_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/extra_margin"
+            android:layout_marginRight="@dimen/extra_margin"
+            android:layout_marginBottom="@dimen/extra_margin"
+            android:hint="@string/enter_otp"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:background="@drawable/button_bg"
+            android:text="@string/update"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

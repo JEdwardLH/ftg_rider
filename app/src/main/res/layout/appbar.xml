@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTransparent"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="com.foodtogo.rider.customview.FixedAppBarLayoutBehavior">
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTransparent"
+        android:fitsSystemWindows="true"
+        app:contentScrim="@color/colorPrimary"
+        app:elevation="0dp"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+        app:titleEnabled="false">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/order_bg"
+            app:layout_collapseMode="parallax"
+            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed|snap" />
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:background="@color/colorTransparent"
+            app:layout_collapseMode="pin"
+            />
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+</com.google.android.material.appbar.AppBarLayout>

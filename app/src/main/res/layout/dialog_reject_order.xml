@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_bg">
+
+    <TextView
+        android:id="@+id/reason_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/reason"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/txt_sixteen"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reason_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="top"
+        android:autofillHints=""
+        android:hint="@string/reason_reject"
+        android:inputType="text|textMultiLine"
+        android:singleLine="false"
+        android:maxLines="5"
+        android:lines="5"
+        android:textSize="14sp"
+        tools:targetApi="o" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt_reason"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/cancel"
+            android:textColor="@color/colorWhite"
+            android:paddingEnd="12dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:paddingStart="12dp"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_go"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/send"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:paddingEnd="12dp"
+            android:layout_weight="1"
+            android:paddingStart="12dp"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

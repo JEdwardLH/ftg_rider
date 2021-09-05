@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e21c26</color>
+    <color name="colorPrimaryBlack">#161616</color>
+    <color name="colorPrimaryDarkBlack">#000000</color>
+    <color name="colorPrimaryDark">#e21c26</color>
+    <color name="colorAccentWhite">#FFFFFF</color>
+    <color name="colorAccent">#e21c26</color>
+    <color name="colorAccentLite">#F5555D</color>d
+    <color name="colorBlack">#363636</color>
+    <color name="edit_txt_bg">#F2F6F9</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorOrange">#e21c26</color>
+    <color name="colorGray">#575656</color>
+    <color name="colorPending">#F6D66D</color>
+    <color name="colorFailed">#E12836</color>
+    <color name="bg_grey">#E1E1E1</color>
+    <color name="bg_light_grey">#F0F0F0</color>
+    <color name="invoice_bg_color">#FCAEB2</color>
+    <color name="map_view_bg">#F17A7F</color>
+    <color name="popup_text_color">#343434</color>
+    <color name="darker_grey">#666666</color>
+    <color name="green">#0C3C0E</color>
+    <color name="lite_black">#363636</color>
+
+    <color name="colorNormal">#999999</color>
+    <color name="colorActivated">#222222</color>
+    <color name="edit_txt">#282828</color>
+    <color name="colorRippleBlack">#94000000</color>
+    <color name="colorRippleGray">#33000000</color>
+
+    <color name="colorDivider">#E4E4E4</color>
+
+    <color name="tvLiteUltra">#B9B9B9</color>
+    <color name="tvLiteExtra">#9E9E9E</color>
+    <color name="tvLite">#504E4E</color>
+    <color name="tv">#5F5F5F</color>
+    <color name="tvDark">#474747</color>
+    <color name="tvDarkExtra">#272727</color>
+
+
+    <color name="textColorTitle">#BF000000</color>
+    <color name="textColorMessage">#BF303030</color>
+
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="colorDelivered">#DF2935</color>
+    <color name="colorNew">#F7902E</color>
+    <color name="colorProcessing">#FFD65C</color>
+
+    <color name="colorGrayLiteExtra">#F3F3F3</color>
+    <color name="colorGrayLite">#EBEBEB</color>
+</resources>

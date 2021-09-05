@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_order_item_clickable"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/itemHorizontalPadding"
+            android:layout_marginRight="@dimen/itemHorizontalPadding"
+            android:weightSum="10"
+            android:paddingBottom="@dimen/tvListVerticalPaddingGroup">
+
+            <TextView
+                style="@style/tvListParam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/transaction_id" />
+
+            <TextView
+                android:id="@+id/tran_id"
+                style="@style/tvListValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_marginLeft="@dimen/itemHorizontalPadding"
+            android:layout_marginRight="@dimen/itemHorizontalPadding"
+            android:paddingBottom="@dimen/tvListVerticalPaddingGroup">
+
+            <TextView
+                style="@style/tvListParam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/date" />
+
+            <TextView
+                android:id="@+id/date_item"
+                style="@style/tvListValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_marginLeft="@dimen/itemHorizontalPadding"
+            android:layout_marginRight="@dimen/itemHorizontalPadding"
+            android:paddingBottom="@dimen/tvListVerticalPaddingGroup">
+
+            <TextView
+                style="@style/tvListParam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/paid_amount" />
+
+            <TextView
+                android:id="@+id/paid_amount"
+                style="@style/tvListValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_marginLeft="@dimen/itemHorizontalPadding"
+            android:layout_marginRight="@dimen/itemHorizontalPadding"
+            android:paddingBottom="@dimen/tvListVerticalPaddingGroup">
+
+            <TextView
+                style="@style/tvListParam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/received_amount" />
+
+            <TextView
+                android:id="@+id/received_amount"
+                style="@style/tvListValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_marginLeft="@dimen/itemHorizontalPadding"
+            android:layout_marginRight="@dimen/itemHorizontalPadding"
+            android:paddingBottom="@dimen/tvListVerticalPaddingGroup">
+
+            <TextView
+                style="@style/tvListParam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/payment_type_without" />
+
+            <TextView
+                android:id="@+id/payment_type"
+                style="@style/tvListValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="formWelcome" format="reference" />
+    <attr name="formTitle" format="reference" />
+    <attr name="dialogBackground" format="reference" />
+    <attr name="dialogTitle" format="reference" />
+    <attr name="dialogMessage" format="reference" />
+
+    <attr name="appbar" format="reference" />
+    <attr name="popup" format="reference" />
+    <attr name="toolbar" format="reference" />
+</resources>

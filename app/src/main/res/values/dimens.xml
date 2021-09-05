@@ -1,0 +1,104 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin_double">32dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <dimen name="nav_header_height">150dp</dimen>
+    <dimen name="nav_view_line_height">30dp</dimen>
+    <dimen name="nav_view_line_width">1dp</dimen>
+    <dimen name="login_edit_size">15sp</dimen>
+    <dimen name="etText">16sp</dimen>
+    <!--Text sizes-->
+    <dimen name="txt_twelve">12sp</dimen>
+    <dimen name="txt_fourteen">14sp</dimen>
+    <dimen name="txt_sixteen">16sp</dimen>
+    <dimen name="txt_eighteen">18sp</dimen>
+    <dimen name="txt_twenty">20sp</dimen>
+    <dimen name="txt_twentyTwo">22sp</dimen>
+    <dimen name="txt_twentyFour">24sp</dimen>
+    <dimen name="txt_twentySix">26sp</dimen>
+    <dimen name="txt_twentyEight">28sp</dimen>
+    <dimen name="txt_thirty">30sp</dimen>
+    <dimen name="txt_thirty_two">32sp</dimen>
+
+    <!--Login-->
+    <dimen name="edit_text_size">16sp</dimen>
+    <dimen name="edit_text_pading_left">5dp</dimen>
+    <dimen name="login_margin_top">10dp</dimen>
+    <dimen name="login_btn_margin_top">15dp</dimen>
+    <dimen name="extra_margin">20dp</dimen>
+    <dimen name="thirty_margin">30dp</dimen>
+
+    <!--radius-->
+    <dimen name="radius_ten">10dp</dimen>
+    <dimen name="inner_radius">35dp</dimen>
+    <dimen name="thickness">23dp</dimen>
+
+
+    <!--migrate from merchant-->
+    <dimen name="tvMessage">14sp</dimen>
+
+    <dimen name="tvTitle">19sp</dimen>
+    <dimen name="tvHead">17sp</dimen>
+    <dimen name="tvHeadSub">15sp</dimen>
+    <dimen name="tvParam">14sp</dimen>
+    <dimen name="tvParamBig">16sp</dimen>
+    <dimen name="tvValueSmall">10sp</dimen>
+    <dimen name="tvValue">13sp</dimen>
+    <dimen name="tvValueBig">15sp</dimen>
+    <dimen name="tvValueBigSizeMin">35sp</dimen>
+    <dimen name="tvValueBigPadding">8sp</dimen>
+    <dimen name="tvButton">15sp</dimen>
+
+    <dimen name="tvPrice">18sp</dimen>
+
+    <dimen name="tvListTitle">15sp</dimen>
+    <dimen name="tvListMessage">14sp</dimen>
+    <dimen name="tvListParamBig">15sp</dimen>
+    <dimen name="tvListParam">13sp</dimen>
+    <dimen name="tvListValue">14sp</dimen>
+    <dimen name="tvListValueSmall">9sp</dimen>
+    <dimen name="tvListValueBig">13sp</dimen>
+    <dimen name="tvListButton">13sp</dimen>
+
+    <dimen name="tvListPrice">11sp</dimen>
+
+    <dimen name="tvNavigation">15sp</dimen>
+    <dimen name="tvNavTitle">15sp</dimen>
+    <dimen name="tvNavValue">14sp</dimen>
+
+
+    <!--<dimen name="itemVerticalPadding">5dp</dimen>-->
+    <dimen name="itemVerticalPadding">10dp</dimen>
+    <dimen name="tvListVerticalPaddingTitle">2dp</dimen>
+    <dimen name="tvListVerticalPaddingMessage">2dp</dimen>
+    <dimen name="tvListVerticalPaddingParamBig">2dp</dimen>
+    <dimen name="tvListVerticalPaddingParam">2dp</dimen>
+    <dimen name="tvListVerticalPaddingValue">2dp</dimen>
+    <dimen name="tvListVerticalPaddingValueBig">2dp</dimen>
+    <dimen name="tvListVerticalPaddingButton">2dp</dimen>
+
+    <dimen name="tvListVerticalPaddingGroup">4dp</dimen>
+
+
+    <!--<dimen name="itemHorizontalPadding">5dp</dimen>-->
+    <dimen name="itemHorizontalPadding">10dp</dimen>
+    <dimen name="tvListHorizontalPaddingTitle">2dp</dimen>
+    <dimen name="tvListHorizontalPaddingMessage">2dp</dimen>
+    <dimen name="tvListHorizontalPaddingParamBig">2dp</dimen>
+    <dimen name="tvListHorizontalPaddingParam">2dp</dimen>
+    <dimen name="tvListHorizontalPaddingValue">2dp</dimen>
+    <dimen name="tvListHorizontalPaddingValueBig">2dp</dimen>
+    <dimen name="tvListHorizontalPaddingButton">2dp</dimen>
+
+
+    <dimen name="divider_size">0.5dp</dimen>
+
+    <dimen name="overlap">100dp</dimen>
+    <dimen name="overlapImage">200dp</dimen>
+
+
+    <dimen name="tvSnackBar">15sp</dimen>
+</resources>

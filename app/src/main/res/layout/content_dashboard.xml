@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccentWhite"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/appbar_dashboard" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_texture" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/srl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:behavior_overlapTop="@dimen/overlap"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/llContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@drawable/bg_home_container_card"
+            android:orientation="vertical"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/active_status_txt"
+                style="@style/tvDashboardParam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:text="@string/unavailable_content"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:background="?attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center"
+                tools:ignore="UnusedAttribute" />
+            <LinearLayout
+                style="@style/cardDashboard"
+                android:id="@+id/llNewOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/tvDashboardParam"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_home_order_new"
+                    android:text="@string/new_order" />
+
+                <TextView
+                    android:id="@+id/tvNewOrderCount"
+                    style="@style/tvValueBigDashboard"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/bg_value_new_clickable"
+                    android:layout_height="wrap_content"
+                    tools:text="30" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_navigate_arrow"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cardDashboard"
+                android:id="@+id/llProcessingOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/tvDashboardParam"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_home_order_processing"
+                    android:text="@string/processing_order" />
+
+                <TextView
+                    android:id="@+id/tvProcessingOrderCount"
+                    style="@style/tvValueBigDashboard"
+                    android:background="@drawable/bg_value_processing_clickable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="30" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_navigate_arrow"
+                    android:padding="2dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llDeliveredOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/cardDashboard">
+
+                <TextView
+                    style="@style/tvDashboardParam"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_home_order_delivered"
+                    android:text="@string/delivered_order" />
+
+                <TextView
+                    android:id="@+id/tvDeliveredOrderCount"
+                    style="@style/tvValueBigDashboard"
+                    android:background="@drawable/bg_value_delivery_clickable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="3" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_navigate_arrow"
+                    android:padding="2dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llTotalOrders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/cardDashboard">
+
+                <TextView
+                    style="@style/tvDashboardParam"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_home_order_total"
+                    android:text="@string/total_orders" />
+
+                <TextView
+                    android:id="@+id/tvTotalOrderCount"
+                    style="@style/tvValueBigDashboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="300000000" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_navigate_arrow"
+                    android:visibility="invisible"
+                    android:padding="2dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/tvHeadSub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/left_margin_home_title"
+                android:text="Total Orders" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clchart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                style="@style/cardDashboard">
+
+                <lecho.lib.hellocharts.view.PieChartView
+                    android:id="@+id/pieChartView"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="1dp"
+                    android:foregroundGravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="1.2"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent=".45" />
+
+                <TextView
+                    android:id="@+id/tvNewOrders"
+                    style="@style/tvPie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/pie_new_orders"
+                    android:text="@string/new_order"
+                    app:layout_constraintBottom_toTopOf="@id/tvProcessingOrders"
+                    app:layout_constraintLeft_toRightOf="@id/pieChartView"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed" />
+
+                <TextView
+                    android:id="@+id/tvProcessingOrders"
+                    style="@style/tvPie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/pie_processing"
+                    android:text="@string/processing_order"
+                    app:layout_constraintBottom_toTopOf="@id/tvDeliveredOrders"
+                    app:layout_constraintLeft_toRightOf="@id/pieChartView"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvNewOrders" />
+
+                <TextView
+                    android:id="@+id/tvDeliveredOrders"
+                    style="@style/tvPie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/pie_delivered"
+                    android:text="@string/delivered_order"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/pieChartView"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvProcessingOrders" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
