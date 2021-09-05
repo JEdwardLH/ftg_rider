@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a4e2b52-9031-473f-bb98-8b308261c0ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hungrynowdelivery.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/foodtogo/rider/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/BaseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/MyFirebaseMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/AbstractFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/AppConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/BaseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/BaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/BaseFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/FragmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/mvp/BaseContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/mvp/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/base/mvp/BasePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/AbstractAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/BottomDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/CenteredTitleToolbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/EndlessRecyclerViewScrollListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/FixedAppBarLayoutBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/MyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/PaginationScrollListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/PicassoCircleTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/customview/PicassoRoundedTransformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/rest/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/rest/ApiEndPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/rest/ApiInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/rest/ApiInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/rest/ApiKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/source/AppDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/source/AppRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/source/sharedpreference/AppPreferenceDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/data/source/sharedpreference/PreferenceKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/filepath/FilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/changepassword/ChangePasswordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/changepassword/ChangePasswordResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/commission_transaction/TransactionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/commission_transaction/TransactionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/commission_transaction/TransactionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/commissiontracking/CommissionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/commissiontracking/CommissionTrackingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/commissiontracking/PayRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/dashboard/DashboardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/deliveredorders/DeliveredOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/deliveredorders/DeliveredResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/deliveredorders/NewOrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Bounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/DirectionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/DistanceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Distance_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Duration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Duration_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/EndLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/EndLocation_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/GeocodedWaypoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Leg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Northeast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/OverviewPolyline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Polyline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Southwest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/StartLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/StartLocation_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/directions/Step.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/earningreports/EarningReportRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/earningreports/EarningReportsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/earningreports/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/forgotpassword/ForgotPasswordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/forgotpassword/ForgotPasswordResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/AddressComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Bounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/GeoCodeAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Geometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Northeast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Northeast_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/PlusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/PlusCode_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Southwest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Southwest_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/geocodeaddress/Viewport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/invoice/Choice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/invoice/CustomerDetailArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/invoice/InvoiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/invoice/InvoiceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/invoice/OrderDetailArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/login/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/login/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/neworders/AcceptOrRejectOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/neworders/NewOrdersResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/neworders/OrderNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/orders/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/payment/PaymentConversionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/payment/PaymentConversionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/payment/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/payment_settings/PaymentSettingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/payment_settings/UpdatePaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/processingorders/ProcessingOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/profile/ProfileRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/profile/ProfileResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/profiledetails/ProfileDetailResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/sendOtp/SendOtpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/signout/SignOutResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/signout/SignoutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/splash/SplashResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/trackOrder/CustomerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/trackOrder/OrderStatusDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/trackOrder/StoreDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/trackOrder/TrackOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/trackOrder/TrackOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/trackOrder/UpdateLocationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/trackOrder/UpdateStatusRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/WorkingHoursRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/Friday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/GetWorkingHourResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/Monday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/Saturday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/Sunday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/Thursday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/Tuesday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/Wednesday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/model/workinghours/getworkinghour/WorkingHour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/mqtt/MQTTActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/mqtt/MQTTServerCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/mqtt/MQTTServerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/mqtt/ServerCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontracking/fragment/CommissionTracking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontracking/mvp/CmTrackingContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontracking/mvp/CmTrackingModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontracking/mvp/CmTrackingPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontransaction/adapter/TransactionAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontransaction/fragment/CommissionTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontransaction/mvp/CmTransactionContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontransaction/mvp/CmTransactionModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/commissiontransaction/mvp/CmTransactionPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dashboard/activity/DashboardActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dashboard/fragment/DashboardFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dashboard/mvp/DashboardContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dashboard/mvp/DashboardModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dashboard/mvp/DashboardPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dashboard/view/PieChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/deliveredorder/adapter/DeliveryOrderAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/deliveredorder/fragment/DeliveredOrderFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/deliveredorder/mvp/DeliveredOrderContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/deliveredorder/mvp/DeliveredOrderModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/deliveredorder/mvp/DeliveredOrderPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dialog/DateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dialog/DateRangeDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dialog/ExitDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/dialog/SignOutDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/earning_reports/adapter/EarningReportAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/earning_reports/fragment/EarningReportsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/earning_reports/mvp/EarningReportsContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/earning_reports/mvp/EarningReportsModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/earning_reports/mvp/EarningReportsPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/forgotpassword/activity/ForgotPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/forgotpassword/mvp/ForgotPasswordContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/forgotpassword/mvp/ForgotPasswordModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/forgotpassword/mvp/ForgotPasswordPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/invoice/activity/InvoiceActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/invoice/adapter/InvoiceOrderAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/invoice/interfaces/ItemInfoListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/invoice/mvp/InvoiceContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/invoice/mvp/InvoiceModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/invoice/mvp/InvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/login/activity/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/login/mvp/LoginContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/login/mvp/LoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/login/mvp/LoginPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/neworderfragment/adapter/NewOrderAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/neworderfragment/fragment/NewOrderFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/neworderfragment/mvp/NewOrderContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/neworderfragment/mvp/NewOrderModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/neworderfragment/mvp/NewOrderPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/payment/activity/PaymentPayActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/payment/mvp/PaymentContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/payment/mvp/PaymentModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/payment/mvp/PaymentPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/payment_setting/fragment/PaymentSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/payment_setting/mvp/PaymentSettingContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/payment_setting/mvp/PaymentSettingModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/payment_setting/mvp/PaymentSettingPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/processingorder/adapter/ProcessingOrderAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/processingorder/fragment/ProcessingOrderFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/processingorder/mvp/ProcessingOrderContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/processingorder/mvp/ProcessingOrderModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/processingorder/mvp/ProcessingOrderPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/profile/fragment/EditProfileFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/profile/mvp/ProfileContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/profile/mvp/ProfileModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/profile/mvp/ProfilePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/splash/activity/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/splash/mvp/SplashContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/splash/mvp/SplashPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/trackorder/activity/TrackOrderMapsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/trackorder/adapter/DriverInfoWindowAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/trackorder/mvp/TrackOrderContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/trackorder/mvp/TrackOrderModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/trackorder/mvp/TrackOrderPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/workinghours/activity/WorkingHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/workinghours/mvp/WorkingHourContractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/workinghours/mvp/WorkingHourModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/ui/workinghours/mvp/WorkingHourPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/CommonStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/ConversionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/CurrencyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/LocationFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/NetworkUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/PolyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/PreferenceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/ResourceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/rider/util/ViewUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/dashboard_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_delivery_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_eta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_make_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_noti_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_order_accepted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_order_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_order_prepare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_pick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_radio_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_radio_unselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_username.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_vehicle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login_bg_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/paperflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/toolbar_bg_withicons.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/ic_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/ic_radio_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/ic_radio_unselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/dashboard_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_card_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_delivery_time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_eta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_make_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_order_accepted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_order_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_order_prepare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_paperflight_with_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_pick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_radio_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_radio_unselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_username.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_vehicle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login_bg_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/paperflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/toolbar_bg_withicons.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_card_bottom_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_card_center_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_card_single_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_card_top_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_home_item_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_order_item_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_value_all_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_value_delivery_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_value_new_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_value_processing_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/line_down_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/line_up_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/line_up_down_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/pie_delivered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/pie_new_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/pie_processing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dashboard_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_eta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_make_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_noti_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_order_accepted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_order_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_order_prepare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_paperflight_with_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_pick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_radio_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_radio_unselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_username.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_vehicle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login_bg_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/noti_small_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/notification_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/paperflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/placeholder.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/toolbar_bg_withicons.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bg_order_item.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/dashboard_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_eta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_make_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_nav_dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_noti_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_order_accepted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_order_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_order_prepare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_paperflight_with_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_pick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_radio_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_radio_unselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_username.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_vehicle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_bg_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/order_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/paperflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/toolbar_bg_withicons.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/accept.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_card_bottom.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_card_center.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_card_single.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_card_top.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_home_container_card.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_home_item.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_toolbar_drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/dashboard_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/dashboard_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/down_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/food_placeholder.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_calendar_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_eta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_home_order_delivered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_home_order_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_home_order_processing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_home_order_total.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_make_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_navigate_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_noti_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_order_accepted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_order_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_order_prepare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_paperflight_with_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_pick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_radio_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_radio_unselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_username.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_vehicle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/left_margin_home_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/line_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/line_down.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/line_up.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/line_up_down.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login_bg_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/order_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/paperflight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/profile_default_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/reject.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/toolbar_bg_withicons.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/total_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/app_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_card_bottom_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_card_center_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_card_single_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_card_top_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_home_item_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_order_item_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_value_all.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_value_all_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_value_delivery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_value_delivery_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_value_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_value_new_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_value_processing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_value_processing_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_orange.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/close_ic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dialog_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fill_rec_grey_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/food_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/grey_rec_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_accept_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrived.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_branch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_calender_old.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_card.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_client_id.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_clock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_close_orange.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_commission_tracking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_commission_transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_delivered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_delivered_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dispatched.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_double_arrow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_earning_reports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_edit_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_failed_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_failed_order_without_close.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_ifsc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_info_orange.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_invoice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_logo_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_new_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_order_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_password_svg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_payment_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_people.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_phone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_processing_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_refresh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_refresh_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_reject_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_signout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_splash_bike.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_started.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toolbar_foodtogo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toolbar_hungry_now.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_total_earnings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_total_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_upload_folder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vec_arrow_up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_working_hours.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_worlwide.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/invoice_bg_rec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/landing_food_top.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/line_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/line_down_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/line_up_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/line_up_down_clickable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/man_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/map_shadow_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/paper_flight_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pie_delivered.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pie_new_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pie_processing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/radio_langauge_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rec_white_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangle_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangle_bg_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/roung_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_nav_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_logo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/status_failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/status_new_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/status_processing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/view_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/helvetica_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/helvetica_light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/helvetica_medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/helvetica_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/helvetica_semi_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/helvetica_ultra_light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_in_voice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_track_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_track_order_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_working_hours.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/appbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/appbar_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/appbar_other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/change_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/check_delivered_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/commission_transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/container_black_theme.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_snackbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/delivered_order_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_change_language.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_change_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_change_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_confirmation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_date_range.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_exit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_item_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_order_otp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_payment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_pin_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_reject_order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_signout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_user_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/divider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/earning_report_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/error_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_commission_tracking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_earning_reports.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/head_commission_transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/head_delivered_orders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/invoice_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/li__head_commission_tracking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/li_commission_tracking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/li_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/li_loading_error.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/li_loading_more.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/li_loading_more_error.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/li_no_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/marker_info_window.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/navigation_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/new_order_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/orders_toolbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/otp_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/processing_order_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/progress_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/simple_spinner_custom_text_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/track_order_bottom_sheet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/track_order_container.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/track_slide_up_panel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/transaction_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/dashboard_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/dashboard_track.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/ding_notification.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-th/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/foodtogo/rider/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\herna\.android\avd\Pixel_3a_API_30_x86.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/keystore/rider/riderkeystore.jks" />
+    <option name="KEY_ALIAS" value="FoodToGo" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gjIRwNbLdcrP5FOIjVw1EolWmR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ApkExportedModule" value="foodtogorider.app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Rider" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-29T00:22:20.731Z" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1609201344635" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="ftg_rider.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a4e2b52-9031-473f-bb98-8b308261c0ec" name="Default Changelist" comment="" />
+      <created>1598621571023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598621571023</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="577" y="127" key="#app" timestamp="1609201344295">
+      <screen x="0" y="25" width="1792" height="1015" />
+    </state>
+    <state x="577" y="127" key="#app/0.25.1792.1015@0.25.1792.1015" timestamp="1609201344295" />
+    <state x="287" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605798422680">
+      <screen x="0" y="25" width="1792" height="1019" />
+    </state>
+    <state x="287" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1019@0.25.1792.1019" timestamp="1605798422680" />
+    <state x="584" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606700170748">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state x="584" y="339" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1017@0.25.1792.1017" timestamp="1606700170748" />
+    <state x="225" y="161" width="1200" height="777" key="AVDManager" timestamp="1607388463501">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state x="225" y="161" width="1200" height="777" key="AVDManager/0.25.1792.1015@0.25.1792.1015" timestamp="1606440384013" />
+    <state x="225" y="161" width="1200" height="777" key="AVDManager/0.25.1792.1017@0.25.1792.1017" timestamp="1607388463501" />
+    <state width="1750" height="229" key="GridCell.Tab.0.bottom" timestamp="1607388285147">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="273" key="GridCell.Tab.0.bottom/0.25.1792.1013@0.25.1792.1013" timestamp="1606973237334" />
+    <state width="1750" height="273" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1606716764706" />
+    <state width="1750" height="229" key="GridCell.Tab.0.bottom/0.25.1792.1017@0.25.1792.1017" timestamp="1607388285147" />
+    <state width="1358" height="262" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1606440705650" />
+    <state width="679" height="262" key="GridCell.Tab.0.bottom/0.25.1792.1021@0.25.1792.1021" timestamp="1605798228247" />
+    <state width="1750" height="229" key="GridCell.Tab.0.center" timestamp="1607388285146">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="273" key="GridCell.Tab.0.center/0.25.1792.1013@0.25.1792.1013" timestamp="1606973237334" />
+    <state width="1750" height="273" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1606716764706" />
+    <state width="1750" height="229" key="GridCell.Tab.0.center/0.25.1792.1017@0.25.1792.1017" timestamp="1607388285146" />
+    <state width="1358" height="262" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1606440705649" />
+    <state width="679" height="262" key="GridCell.Tab.0.center/0.25.1792.1021@0.25.1792.1021" timestamp="1605798228247" />
+    <state width="1750" height="229" key="GridCell.Tab.0.left" timestamp="1607388285145">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="273" key="GridCell.Tab.0.left/0.25.1792.1013@0.25.1792.1013" timestamp="1606973237334" />
+    <state width="1750" height="273" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1606716764706" />
+    <state width="1750" height="229" key="GridCell.Tab.0.left/0.25.1792.1017@0.25.1792.1017" timestamp="1607388285145" />
+    <state width="1358" height="262" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1606440705649" />
+    <state width="679" height="262" key="GridCell.Tab.0.left/0.25.1792.1021@0.25.1792.1021" timestamp="1605798228247" />
+    <state width="1750" height="229" key="GridCell.Tab.0.right" timestamp="1607388285146">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="273" key="GridCell.Tab.0.right/0.25.1792.1013@0.25.1792.1013" timestamp="1606973237334" />
+    <state width="1750" height="273" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1606716764706" />
+    <state width="1750" height="229" key="GridCell.Tab.0.right/0.25.1792.1017@0.25.1792.1017" timestamp="1607388285146" />
+    <state width="1358" height="262" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1606440705650" />
+    <state width="679" height="262" key="GridCell.Tab.0.right/0.25.1792.1021@0.25.1792.1021" timestamp="1605798228247" />
+    <state x="397" y="169" key="SettingsEditor" timestamp="1606700224919">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state x="397" y="169" key="SettingsEditor/0.25.1792.1017@0.25.1792.1017" timestamp="1606700224919" />
+    <state x="510" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1603409773567">
+      <screen x="0" y="23" width="1680" height="951" />
+    </state>
+    <state x="510" y="331" key="com.intellij.ide.util.TipDialog/0.23.1680.951@0.23.1680.951" timestamp="1603409773567" />
+    <state x="686" y="230" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606440793557">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state x="686" y="230" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1792.1017@0.25.1792.1017" timestamp="1606440793557" />
+    <state x="525" y="273" width="923" height="519" key="find.popup" timestamp="1611200592891">
+      <screen x="0" y="25" width="1792" height="1013" />
+    </state>
+    <state x="492" y="256" width="695" height="486" key="find.popup/0.23.1680.952@0.23.1680.952" timestamp="1603413118940" />
+    <state x="492" y="256" width="709" height="487" key="find.popup/0.23.1680.953@0.23.1680.953" timestamp="1604848135663" />
+    <state x="492" y="257" width="695" height="489" key="find.popup/0.23.1680.956@0.23.1680.956" timestamp="1604853508485" />
+    <state x="525" y="273" width="923" height="519" key="find.popup/0.25.1792.1012@0.25.1792.1012" timestamp="1607565600779" />
+    <state x="525" y="273" width="923" height="519" key="find.popup/0.25.1792.1013@0.25.1792.1013" timestamp="1611200592891" />
+    <state x="525" y="273" width="923" height="521" key="find.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1608798860613" />
+    <state x="525" y="275" width="742" height="522" key="find.popup/0.25.1792.1017@0.25.1792.1017" timestamp="1607388169073" />
+    <state x="525" y="275" width="742" height="523" key="find.popup/0.25.1792.1019@0.25.1792.1019" timestamp="1605801169963" />
+    <state x="525" y="275" width="742" height="524" key="find.popup/0.25.1792.1021@0.25.1792.1021" timestamp="1606801654368" />
+    <state x="525" y="276" width="923" height="554" key="find.popup/0.25.1792.1026@0.25.1792.1026" timestamp="1606312088334" />
+    <state x="525" y="276" width="923" height="554" key="find.popup/0.25.1792.1027@0.25.1792.1027" timestamp="1606311875816" />
+  </component>
+</project>

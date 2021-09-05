@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.hannesa2:AndroidSlidingUpPanel:3.5.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9752463b1c239677e67ffa7fc941ba0d/jetified-AndroidSlidingUpPanel-3.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9752463b1c239677e67ffa7fc941ba0d/jetified-AndroidSlidingUpPanel-3.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9752463b1c239677e67ffa7fc941ba0d/jetified-AndroidSlidingUpPanel-3.5.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54c7fc4dc36b8b8a0f97ee9685be9eb2/jetified-AndroidSlidingUpPanel-3.5.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54c7fc4dc36b8b8a0f97ee9685be9eb2/jetified-AndroidSlidingUpPanel-3.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/54c7fc4dc36b8b8a0f97ee9685be9eb2/jetified-AndroidSlidingUpPanel-3.5.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2013b4ad60424956a5a7521d1ba25d6/jetified-AndroidSlidingUpPanel-3.5.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2013b4ad60424956a5a7521d1ba25d6/jetified-AndroidSlidingUpPanel-3.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2013b4ad60424956a5a7521d1ba25d6/jetified-AndroidSlidingUpPanel-3.5.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
