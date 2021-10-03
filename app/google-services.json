@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "746572337920",
-    "project_id": "foodtogo-rider",
-    "storage_bucket": "foodtogo-rider.appspot.com"
+    "project_number": "216762166580",
+    "project_id": "ftg-rider",
+    "storage_bucket": "ftg-rider.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:746572337920:android:d7cacf4f2f07cf7c1d99e5",
+        "mobilesdk_app_id": "1:216762166580:android:a6d9d32bee071f19ad0961",
         "android_client_info": {
           "package_name": "com.foodtogo.rider"
         }
       },
       "oauth_client": [
         {
-          "client_id": "746572337920-ebse9s3kgijj46hvv6nb9t1l5rg3jv1a.apps.googleusercontent.com",
+          "client_id": "216762166580-puv7cta5d8h3hkr06n8mkk2k4ibgdpcb.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDTl9OVzeNUB6p_kaYIZe65SzVo9duQMyY"
+          "current_key": "AIzaSyAFlYHwNzPcntTcqvnI6XDxlt4qdWxNFaU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "746572337920-ebse9s3kgijj46hvv6nb9t1l5rg3jv1a.apps.googleusercontent.com",
+              "client_id": "216762166580-puv7cta5d8h3hkr06n8mkk2k4ibgdpcb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
